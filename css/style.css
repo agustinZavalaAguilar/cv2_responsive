@@ -1,9 +1,43 @@
 
+html {
+    display: flex;
+    justify-content: center;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0px;
     padding: .4rem;
+    width: 1000px;
 }
+
+h1, h2, h3 {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans Indic Siyaq Numbers', sans-serif;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 3rem;
+    
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: .6rem;
+    font-weight:600;
+}
+
+h3 {
+    font-size: larger;
+    font-weight: 550;
+    margin-bottom: .5rem;
+}
+
+p {
+    margin-bottom: .3rem;
+}
+
 
 header {
     background-color: #3498db; 
@@ -19,16 +53,18 @@ header {
 
 .left-column, .right-column {
     padding: .4rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .left-column {
     width: 60%; 
-    background-color: whitesmoke;
+    background-color: rgba(216, 88, 48, 0.35);
 }
 
 .right-column {
     width: 40%;
-    background-color: rgba(101, 178, 211, 0.47);
+    background-color: rgb(81 131 153 / 47%);;
 }
 
 img {
@@ -37,19 +73,13 @@ img {
     border-radius: 50%; /* Creates a circular image */
 }
 
-h1 {
-    margin-bottom: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 3rem;
-}
-
-p {
-    margin: 0;
-}
-
 /*Apperçu mobile*/
 
 @media only screen and (max-width: 450px ){
+
+    body {
+        padding: 0;
+    }
 
     .column-container {
         flex-direction: column;
@@ -58,6 +88,8 @@ p {
     .left-column, .right-column {
         display: inline-flex;
         width: auto;
+        padding: 1rem;
+        padding-left: 2rem;
     }
 
     header {
@@ -71,5 +103,9 @@ p {
     .image-with-border {
         width: 120px;
         border: 10px rgb(66, 148, 230);
+    }
+
+    .info-card {
+        margin-bottom: 1rem;
     }
 }
