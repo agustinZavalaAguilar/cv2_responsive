@@ -6,20 +6,15 @@ html {
 
 body {
     font-family: Arial, sans-serif;
-    margin: 0px;
+    margin-top: 0px;
     padding: .4rem;
     width: 1000px;
 }
 
-h1, h2, h3 {
-    font-family: 'Inter', sans-serif;
-    font-family: 'Noto Sans Indic Siyaq Numbers', sans-serif;
-}
-
 h1 {
     margin-bottom: 10px;
-    font-size: 3rem;
-    
+    font-size: 3rem;    
+    font-family: 'Roboto', sans-serif;    
 }
 
 h2 {
@@ -96,6 +91,10 @@ header {
         padding: 0;
     }
 
+    h1{
+        font-size: 2rem;
+    }
+
     .column-container {
         flex-direction: column;
     }
@@ -116,5 +115,21 @@ header {
         margin-top: 1rem;
         margin-left: auto;
     }
+
+}
+
+/*Apperçu destop*/
+@media only screen and (min-width: 700px ){
+
+body {
+    margin-top: 100px;
+}
+
+h1 { 
+    font-size: 4rem;
+    margin-left: 4rem;
+}
+
+
 
 }
