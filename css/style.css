@@ -50,6 +50,7 @@ header {
     flex-direction: row;
     justify-content:space-between;
     align-items: center;
+    height: 200px;
 }
 
 .column-container {
@@ -58,7 +59,7 @@ header {
 }
 
 .left-column, .right-column {
-    padding: .4rem;
+    padding: 2em;
     display: flex;
     flex-direction: column;
 }
@@ -71,6 +72,20 @@ header {
 .right-column {
     width: 40%;
     background-color: rgb(81 131 153 / 47%);;
+}
+
+
+.info-card {
+    margin-bottom: 1rem;
+}
+
+.image-with-border {
+    margin-top: 5rem;
+    margin-right: 1rem;
+    width: 270px;
+    position: absolute right;
+    float: right;
+    z-index: 0;
 }
 
 /*Apperçu mobile*/
@@ -86,23 +101,20 @@ header {
     }
 
     .left-column, .right-column {
-        display: inline-flex;
+        /*display: inline-flex;*/        
         width: auto;
-        padding: 1rem;
-        padding-left: 2rem;
+        padding: 1rem 1rem 1rem 2.5rem;
     }
 
     header {
         background-image: url(../ressources/concept-cloud-creatif-dans-cube-verre-infrastructure-metaverse-numerique-cloudscape\ 1.png);
-        
+        height: 100px;
     }
 
     .image-with-border {
         width: 120px;
-        border: 10px rgb(66, 148, 230);
+        margin-top: 1rem;
+        margin-left: auto;
     }
 
-    .info-card {
-        margin-bottom: 1rem;
-    }
 }
