@@ -29,11 +29,18 @@ h3 {
     margin-bottom: .5rem;
 }
 
-p {
+p, li {
     margin-bottom: .3rem;
     text-align: justify;
     line-height: 1.5rem;
+    font-size: 1.2rem;
 }
+
+a {
+    color: rgb(20, 38, 139);
+    font-weight: 500;
+}
+
 
 
 header {
@@ -116,6 +123,10 @@ header {
         width: 120px;
         margin-top: 1rem;
         margin-left: auto;
+    }
+
+    p {
+        font-size: 1.1rem;
     }
 
 }
