@@ -41,6 +41,9 @@ a {
     font-weight: 500;
 }
 
+.bullets { 
+    list-style: disc;
+}
 
 
 header {
