@@ -23,10 +23,10 @@ h2 {
     font-weight:600;
 }
 
-h3 {
-    font-size: larger;
-    font-weight: 550;
+h3 {   
+    font-size: 1.3rem;
     margin-bottom: .5rem;
+    text-decoration: underline;
 }
 
 p, li {
