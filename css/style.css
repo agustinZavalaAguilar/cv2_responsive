@@ -43,6 +43,11 @@ a {
 
 .bullets { 
     list-style: disc;
+    margin-left: 1rem;
+}
+
+.bullets p {
+    font-size: .9rem;
 }
 
 
