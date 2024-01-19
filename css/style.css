@@ -8,7 +8,6 @@ html {
 body {
     font-family: Arial, sans-serif;
     margin-top: 0px;
-    padding: .4rem;
     width: 1000px;
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, .3);
 }
@@ -152,7 +151,6 @@ header {
 
 body {
     margin-top: 50px;
-    border: 1px solid #ddd3cd;
 }
 
 h1 { 
