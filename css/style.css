@@ -47,7 +47,8 @@ a {
 }
 
 .bullets p {
-    font-size: .9rem;
+    font-size: 1rem;
+    line-height: .6rem;
 }
 
 
@@ -143,7 +144,8 @@ header {
 @media only screen and (min-width: 700px ){
 
 body {
-    margin-top: 100px;
+    margin-top: 50px;
+    border: 1px solid #ddd3cd;
 }
 
 h1 { 
